@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="api.css" />
+    <title>Doc</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="api.html">users</a></li>
+        <li><a class="active" href="posts.html">posts</a></li>
+        <li><a href="albums.html">albums</a></li>
+        <li><a href="todos.html">todos</a></li>
+    </ul>
+    <div class="demo">
+        <table>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="container">
+        <a href="#" id="button">ADD USER</a>
+    </div>
+    <div class="popup">
+        <div class="popup-content">
+            <img src="check.png" alt="close" class="close" />
+            <input type="number" name="id" id="id" placeholder="id">
+            <input type="text" name="title" id="title" placeholder="title">
+            <input type="number" name="userId" id="userId" placeholder="userId">
+            <button type="submit" class="button" id="teuth" onclick="userCreate()">ADD</button>
+        </div>
+
+    </div>
+
+    <div class="popup">
+        <div class="popup-contenu">
+        </div>
+    </div>
+    <script src="js/todos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- <script src="apiannex.js"></script> -->
+
+
+</body>
+
+</html>

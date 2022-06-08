@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="api.css" />
+    <title>Doc</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="#">users interface</a></li>
+        <!-- <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li> -->
+    </ul>
+    <div class="champ" id="connected"></div>
+
+    <div class="demo">
+        <table>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="container">
+        <a href="#" id="button">ADD USER</a>
+    </div>
+    <div class="popup">
+        <div class="popup-content">
+            <img src="check.png" alt="close" class="close" />
+            <div>
+            <input type="number" name="id" id="id" placeholder="id">
+            <input type="text" name="name" id="name" placeholder="name">
+            <input type="text" name="username" id="username" placeholder="username">
+            <input type="text" name="phone" id="phone" placeholder="phone">
+            <input type="text" name="email" id="email" placeholder="email">
+            <input type="text" name="website" id="website" placeholder="website">
+            <input type="text" name="street" id="street" placeholder="street">
+            <input type="text" name="suite" id="suite" placeholder="suite">
+            </div>
+            <div>
+            <input type="text" name="city" id="city" placeholder="city">
+            <input type="text" name="zipcode" id="zipcode" placeholder="zipcode">
+            <input type="text" name="lat" id="lat" placeholder="lat">
+            <input type="text" name="lng" id="lng" placeholder="lng">
+            <input type="text" name="namecomp" id="namecomp" placeholder="name company">
+            <input type="text" name="catch" id="catch" placeholder="catchPhrase">
+            <input type="text" name="bs" id="bs" placeholder="bs">
+            <button type="submit" class="button" id="teuth" onclick="userCreate()">ADD</button>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="popup">
+        <div class="popup-contenu">
+        </div>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+    <!-- <script src="apiannex.js"></script> -->
+
+
+</body>
+
+</html>

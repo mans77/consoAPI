@@ -1,0 +1,26 @@
+{% extends "base.html" %}  {% block title %}
+newpost{% endblock %} {% block content %}
+<div id="center">
+<form class="form" action="/login" method="POST">
+    <div class="form__image-box">
+    
+        <h1 class="form__image-box__heading">
+            CONNECT
+        </h1>
+    </div>
+    <div class="form__fields">
+        <h3 class="form__fields__heading">
+            email
+        </h3>
+        <input type="email" class="form-field text-field" name="email" />    
+        <h3 class="form__fields__heading">
+            password
+        </h3>
+        <input type="password" class="form-field text-field" name="password"/>    
+        <button type="submit" class="btn">SUBMIT</button>
+    </div>
+</form>
+</div>
+
+    
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "index.html" %}  {% block title %}
+info users {% endblock %} {% block content %}
+<div id="central">
+<form class="formx">
+    <div class="box_image">
+        <h1 class="form__image-box__heading">
+           INFOS UTILISATEURS
+        </h1>
+    </div>
+    <div class="form__fields">
+      {% for user in users %}
+        <input type="number" class="form-field text-field" placeholder="{{ user.id }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.name }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.username}}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.email }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.phone }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.website}}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.street }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.suite }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.city }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.zipcode }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.lng }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.lat }}"/>   
+        <input type="text" class="form-field text-field" placeholder="{{ user.name_company }}"/> 
+        <input type="text" class="form-field text-field" placeholder="{{ user.catchPrase }}"/>
+        <input type="text" class="form-field text-field" placeholder="{{ user.bs }}"/>         
+        <a href="#" class="buttox">SUBMIT</a>
+       {% endfor %}
+    </div>
+</form>
+
+</div>
+<iframe class="map" , src="../map" width="800" height="700"  float="right"></iframe>
+    
+{% endblock %}

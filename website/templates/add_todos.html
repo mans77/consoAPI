@@ -1,0 +1,26 @@
+{% extends "index.html" %}  {% block title %}
+newalbum{% endblock %} {% block content %}
+<div id="center">
+<form class="form" action="/addtodos" method="POST">
+    <div class="form__image-box">
+        <h1 class="form__image-box__heading">
+            ADD TODOS
+        </h1>
+    </div>
+    <div class="form__fields">
+        <h3 class="form__fields__heading">
+            TITLE
+        </h3>
+        <input type="text" class="form-field text-field", name="title" />  
+        <h3 class="form__fields__heading">
+            COMPLETED
+        </h3>
+        <input type="text" class="form-field text-field", name="completed" />  
+         
+        <input type="submit" class="btn" value="SUBMIT" />
+    </div>
+</form>
+</div>
+
+    
+{% endblock %}

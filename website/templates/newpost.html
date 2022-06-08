@@ -1,0 +1,31 @@
+{% extends "index.html" %}  {% block title %}
+newpost{% endblock %} {% block content %}
+<div id="center">
+<form action="/newpost" class="form" method="POST">
+    <div class="form__image-box">
+    
+        <h1 class="form__image-box__heading">
+            ADD POST
+        
+        </h1>
+    </div>
+
+    <div class="form__fields">
+        
+        <h3 class="form__fields__heading">
+            TITLE
+        </h3>
+        <input type="text" class="form-field text-field" name="title" />    
+        <h3 class="form__fields__heading">
+            BODY
+        </h3>
+
+        <input type="text" class="form-field text-field" name="body"/>    
+        <button type="submit" class="btn">SUBMIT</button>
+
+    </div>
+</form>
+</div>
+
+    
+{% endblock %}

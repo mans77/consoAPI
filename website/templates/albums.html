@@ -1,0 +1,8 @@
+{% extends "index.html" %}  {% block title %}
+albums {% endblock %} {% block content %}
+    <button type="button" id="add" class="addalbum">ADD ALBUM</button>
+<form method="POST">
+    <button type="submit" id="load"  class="loadalbum" name="loadalbum">LOAD ALBUM</button> 
+    <input type="number" id="enter"  min="1" max="5" name="nbralbum"/> 
+</form>
+{% endblock %}

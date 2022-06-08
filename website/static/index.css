@@ -1,0 +1,238 @@
+body{
+    background-image: url('back.jpg');
+    background-size: 1920px;
+    /*  */
+    background-color: #FC8989;
+}
+header{
+    background-color: #4C8DD9;
+    margin: 0%;
+    padding: 0%;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+button{
+    display: flex;
+    justify-content: center;
+
+   
+    
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+
+    /* HOME */
+
+    
+    height: 50px;
+    left: 36px;
+    top: 22px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+/* Rectangle 2 */
+.bcont{
+    background-color: #4C8DD9;
+    color: white;
+    width: 160px;
+    margin: 2%;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#bhome{
+    background-color: white;
+    color: #4C8DD9;
+    width: 140px;
+    margin-left: 0.5cm;
+}
+#entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 90%;
+}
+#nombre{
+    font-size: 30px;
+    width: 1cm;
+    height: 0.8cm;
+    background-color: antiquewhite;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    color: #4C8DD9;
+    border-radius: 20%;
+}
+.pagination {
+    display: flex;
+    width: 130%;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Work Sans';
+    font-style: normal;
+    background-color: white;
+    margin-top: 1%;
+    text-align: center;
+  }
+
+.pagination a {
+color: #4C8DD9;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+
+}
+
+.pagination a.active {
+background-color: #FC8989;
+color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+}
+<<<<<<< HEAD
+tr{
+    background-color: #4C8DD9;
+    width: 130%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+td{
+    background-color: white;
+    color: #4C8DD9;
+    font-size: xx-large;
+    border-radius: 5px;
+    margin: 3px;
+    width: auto;
+}
+#corps{
+    margin: 5%;
+    width: auto;
+    background-color: #4C8DD9;
+}
+#ID{
+    text-align: center;
+    width: 3%;
+}
+#NAME{
+    text-align: center;
+    width: 10%;
+}
+#USERNAME{
+    text-align: center;
+    width: 13%;
+}
+#EMAIL{
+    text-align: center;
+    width: 20%;
+}
+#PHONE{
+    text-align: center;
+    width: 13%;
+}
+#WEBSITE{
+    text-align: center;
+    width: 20%;
+}
+#newuser{
+    display: flex;
+    flex-direction: column;
+}
+=======
+
+>>>>>>> b1094e64d0642807e89d97cba98a20c3080c4f70
+#tete{
+    /* Rectangle 15 */
+
+    width: 900px;
+    height: 117px;
+
+    background: #4C8DD9;
+    border-radius: 14px;
+
+
+    /* New user */
+
+    width: 900px;
+    height: 58px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+#formulaire{
+        /* Rectangle 14 */
+
+    width: 900px;
+    height: auto;
+    left: 377px;
+    top: 350px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #4C8DD9;
+}
+#adduser{
+    background-color: white;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+}
+#valider{
+    background-color: #4C8DD9;
+    color: white;
+    width: 160px;
+    margin: 2%;
+}
+

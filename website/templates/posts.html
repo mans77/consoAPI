@@ -1,0 +1,9 @@
+{% extends "index.html" %}  {% block title %}
+posts {% endblock %} {% block content %}
+<button type="button" id="add"class="addpost" >ADD POST</button>
+<form method="POST">
+    <button type="submit" id="load" class="loadpost" name="loadpost" >LOAD POST</button> 
+    <input type="number" id="enter"  min="0" max="5" name="nbpost"/> 
+</form>
+    
+{% endblock %}

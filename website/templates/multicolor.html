@@ -1,0 +1,29 @@
+{% extends "index.html" %}  {% block title %}
+posts {% endblock %} {% block content %}
+<div class="entier">
+    <button type="button" id="add">ADD POST</button>
+    <button type="submit" id="load" >LOAD POST</button> 
+    <input type="number" id="enter"  min="0" max="5"/> 
+</div>    
+    <br>
+    <div class="whole">
+        <div class="container">
+            {% for album in albums %}
+            <section class="sec_0">
+                <header class="title">Title</header>
+                <br>
+            {% endfor %}
+            {% for photo in photos%}
+                <div class="box">
+                    <section class="blue b">{{ photo.url}}</section>
+    
+                </div>
+            {% endfor %}
+                <button class="viewmore">VIEW<br>MORE</button>
+            </section>
+           
+        </div>
+    
+    </div>
+ 
+{% endblock %}

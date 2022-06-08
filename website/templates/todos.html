@@ -1,0 +1,15 @@
+{% extends "index.html" %}  {% block title %}
+todos{% endblock %} {% block content %}
+    <button type="button" id="add" class="addtodos">ADD TODOS</button>
+    <button type="submit" id="load" class="loadtodos" name="loadtodos">LOAD TODOS</button>  
+    <input type="number" id="enter"  min="0" max="5" name="nbtodos"/> 
+
+    <div id="pagin">
+        <ul class="pagination">
+            <li class="ha">PREV</li>
+            <li class="ha">PAGE</li>
+            <li class="ha">NEXT</li>
+        </ul>
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,257 @@
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+td {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+ha {
+    width: 4px;
+    height: 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: azure;
+    opacity: 0.4;
+}
+
+header {
+    background: rgb(202, 22, 22);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    list-style: 20px;
+    transition: 0.4s;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    background-color: aqua;
+    border-radius: 40px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 6px;
+    box-shadow: 6px 6px 29px -4px black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 16px 15px;
+    font-size: 16px;
+    color: black;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, 50%);
+}
+
+#button {
+    position: absolute;
+    right: -40px;
+    background: darkcyan;
+    padding: 10px 15px;
+    color: rgb(75, 68, 68);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.button {
+    background: darkcyan;
+    padding: 10px 15px;
+    color: rgb(75, 68, 68);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: yellow;
+    color: azure;
+}
+
+.popup {
+    background: rgb(188, 164, 164);
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-content {
+    height: auto;
+    width: 600px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.popup-contenu {
+    height: auto;
+    width: 600px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 2px solid grey;
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: aliceblue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px black;
+    cursor: pointer;
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+textarea[name=monTexte] {
+    resize: both;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+td input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0px auto;
+}
+
+tr:hover {
+    background-color: #5e5ea5;
+    opacity: 1;
+}
+
+button {
+    background: darkcyan;
+    padding: 8px 5px;
+    color: rgb(75, 68, 68);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    text-decoration: none;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.bouton {
+    text-decoration: none;
+    background: darkcyan;
+    padding: 8px 5px;
+    margin-top: 10px;
+    color: rgb(75, 68, 68);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    transition: 0.4s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}

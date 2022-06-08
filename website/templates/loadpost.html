@@ -1,0 +1,26 @@
+{% extends "index.html" %}  {% block title %}
+albums {% endblock %} {% block content %}
+    <div class="contentpost">
+        <div class="generale">
+        <div id="post">
+            {% for post in posts %}
+            <h2>{{post.title}}</h2>
+            <p>{{post.body}}</p>
+            {% endfor%}
+            <ul>
+                <li>Ipsum</li>
+            </ul>
+            <div class="show-more">
+            <a href="#">comments</a>
+            </div> 
+        </div>
+       </div>
+ </div>
+ <div id="pagin">
+    <ul class="pagination">
+        <li class="ha">PREV</li>
+        <li class="ha">PAGE</li>
+        <li class="ha">NEXT</li>
+    </ul>
+</div>
+{% endblock %}

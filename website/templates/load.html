@@ -1,0 +1,30 @@
+{% extends "base.html" %}  {% block title %}
+Home  {% endblock %} {% block content %}
+   
+    <button type="button" id="add">ADD POST</button>
+    <button type="submit" id="load" >LOAD POST</button> 
+    <input type="number" id="enter"  min="0" max="5" name = "nombre"/> 
+   
+    <div id="corps">
+        <table class="tab1">
+            {% for user in users %}
+             <tr class="pav">
+                <td id="ID">{{user.id}}</td>
+                <td id="NAME">{{user.name}}</td>
+                <td id="USERNAME">{{user.username}}</td>
+                <td id="EMAIL">{{user.email}}</td>
+                <td id="PHONE">{{user.phone}}</td>
+                <td id="WEBSITE">{{user.website}}</td>
+              </tr> 
+            {% endfor %}
+        </table>   
+    </div>    
+    <div id="pagin">
+        <ul class="pagination">
+            <li class="ha" id="prev"><a>PREV</a></li>
+            <li class="ha"><a>PAGE</a></li>
+            <li class="ha" id="next"><a>NEXT</a></li>
+        </ul>
+    </div>
+    
+{% endblock %}

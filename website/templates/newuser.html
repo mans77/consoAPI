@@ -1,0 +1,36 @@
+{% extends "base.html" %}  {% block title %}
+load {% endblock %} {% block content %}
+
+<form class="formh" action="/newuser" method="POST">
+    
+    <div class="box_image">
+        <h1 class="form__image-box__heading">
+           New user
+        </h1>
+    </div>
+    
+    <div class="form__fields"> 
+     
+        <input type="text" class="form-field text-field" placeholder="name" name="name"/>   
+        <input type="text" class="form-field text-field" placeholder="Username" name="Username"/>   
+        <input type="email" class="form-field text-field" placeholder="email" name="email"/>   
+        <input type="password" class="form-field text-field" placeholder="password" name="password"/>  
+        <input type="text" class="form-field text-field" placeholder="phone" name="phone"/>   
+        <input type="text" class="form-field text-field" placeholder="website" name="website"/>   
+        <input type="text" class="form-field text-field" placeholder="street" name="street"/>   
+        <input type="text" class="form-field text-field" placeholder="suite" name="suite"/>   
+        <input type="text" class="form-field text-field" placeholder="city"name="city"/>   
+        <input type="text" class="form-field text-field" placeholder="zipcode" name="zipcode"/>   
+        <input type="text" class="form-field text-field" placeholder="lng" name="lng"/>   
+        <input type="text" class="form-field text-field" placeholder="lat" name="lat"/>   
+        <input type="text" class="form-field text-field" placeholder="name company" name="compname"/> 
+        <input type="text" class="form-field text-field" placeholder="catchPhrase" name="catchPhrase"/>
+        <input type="text" class="form-field text-field" placeholder="bs" name="bs"/>         
+        <input type="submit"  class="btn" value="SUBMIT"/>
+    </div>
+</form>
+
+
+
+    
+{% endblock %}
